@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,68 +8,54 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="lo">Jeep</div>
-
-  <div class="nav">
+  <header class="nav">
     <nav>
       <ul>
-        <li><a href="#lo">Home</a></li>
-        <li><a href="#ct">Gallery</a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=6281717464320&text=Halo,%20saya%20mau%20bertanya.">Contact</a></li>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=6281717464320&text=Halo,%20saya%20tertarik%20dengan%20wisata%20Dieng." target="_blank">Kontak</a></li>
       </ul>
     </nav>
-  </div>
+  </header>
 
-  <div class="int">
-    <h2>Visit Dieng <br>with us.</h2>
+  <section id="home" class="hero">
+    <h1>Visit Dieng with Us</h1>
     <p>
-      Nikmati Keindahan Alam Dieng <br>Bersama Kami,<br>
-      Dengan Beberapa Paket Wisata pilihan  <br>
-      Ayo Ngejeep Bareng Kami.
+      Nikmati Keindahan Alam Dieng Bersama Kami,<br>
+      Dengan Beberapa Paket Wisata Pilihan.<br>
+      Ayo Ngejeep Bareng Kami!
     </p>
-  </div>
+    <a href="https://api.whatsapp.com/send?phone=6281717464320&text=Halo,%20saya%20tertarik%20dengan%20wisata%20Dieng." target="_blank" class="btn-wa">Hubungi Kami via WhatsApp</a>
+  </section>
 
-  <div class="vl"></div>
+  <section id="gallery" class="gallery">
+    <h2>Galeri Wisata</h2>
+    <p>Pilih Tujuan Anda dan Nikmati Perjalanan di Negeri Atas Awan Bersama Kami.</p>
 
-  <div id="ct">Jeep</div>
+    <div class="slider-container">
+      <input type="radio" name="slider" id="item-1" checked>
+      <input type="radio" name="slider" id="item-2">
+      <input type="radio" name="slider" id="item-3">
 
-  <div class="ket">
-    <p>Pilih Tujuan Anda Dan Nikmati Perjalanan <br> Negeri Atas Awan Bersama Kami.</p>
-  </div>
-
-  <div class="container" id="con">
-    <input type="radio" name="slider" id="item-1" checked>
-    <input type="radio" name="slider" id="item-2">
-    <input type="radio" name="slider" id="item-3">
-
-    <div class="cards">
-      <label class="card" for="item-1" id="song-1">
-        <img src="img2.webp" alt="Zona 1">
-      </label>
-      <label class="card" for="item-2" id="song-2">
-        <img src="sunri.jpg" alt="Golden Sunrise">
-      </label>
-      <label class="card" for="item-3" id="song-3">
-        <img src="ptk9.jpg" alt="Dieng Park">
-      </label>
-    </div>
-
-    <div class="player">
-      <div class="upper-part">
-        <div class="info-area" id="test">
-          <div class="title">Zona 1</div>
-          <div class="subtitle">Dieng Area</div>
-
-          <div class="title">Golden Sunrise</div>
-          <div class="subtitle">Bukit Sikunir</div>
-
-          <div class="title">Dieng Park</div>
-          <div class="subtitle">Petak</div>
-        </div>
+      <div class="cards">
+        <label class="card" for="item-1" id="song-1">
+          <img src="img2.webp" alt="Zona 1">
+          <div class="caption">Zona 1 - Dieng Area</div>
+        </label>
+        <label class="card" for="item-2" id="song-2">
+          <img src="sunri.jpg" alt="Golden Sunrise">
+          <div class="caption">Golden Sunrise - Bukit Sikunir</div>
+        </label>
+        <label class="card" for="item-3" id="song-3">
+          <img src="ptk9.jpg" alt="Dieng Park">
+          <div class="caption">Dieng Park - Petak</div>
+        </label>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="ft">Jeep</div>
+  <footer class="footer">
+    <p>&copy; 2025 Visit Dieng. All rights reserved.</p>
+  </footer>
 </body>
 </html>
