@@ -17,7 +17,7 @@ const packages = [
     title: "Paket Zona 1",
     price: "Rp 600.000 / Jeep (5 Lokasi)",
     features: ["Telaga Warna", "Candi Arjuna", "Kawah Sikidang", "Dieng Park", "Tuk Bima Lukar"],
-    image: "/images/paket1.jpg",
+    image: "/images/paket2.jpg",
     gallery: [
       "/images/zona1-1.jpg",
       "/images/zona1-2.jpg",
@@ -28,7 +28,7 @@ const packages = [
     title: "Paket Zona 2",
     price: "Rp 750.000 / Jeep (5 Lokasi)",
     features: ["Telaga Dringo", "Kawah Candradimuka", "Sumur Jalatunda", "Telaga Merdada", "D'Qiano Water Park"],
-    image: "/images/paket2.jpg",
+    image: "/images/paket1.jpg",
     gallery: [
       "/images/zona2-1.jpg",
       "/images/zona2-2.jpg",
