@@ -71,7 +71,7 @@ export default function JeepDiengLandingPage() {
   const handleSendWA = () => {
     const pesan = `Halo, saya ingin memesan jeep:\nNama: ${form.nama}\nNo. WA: ${form.wa}\nPaket: ${form.paket}\nTanggal: ${date?.toLocaleDateString('id-ID')}\nCatatan: ${form.catatan || '-'}`;
     const encodedPesan = encodeURIComponent(pesan);
-    const url = `https://wa.me/6287810104691?text=${encodedPesan}`;
+    const url = `https://wa.me/6281717464320?text=${encodedPesan}`;
     window.open(url, "_blank");
   };
 
