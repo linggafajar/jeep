@@ -19,9 +19,9 @@ const packages = [
     features: ["Telaga Warna", "Candi Arjuna", "Kawah Sikidang", "Dieng Park", "Tuk Bima Lukar"],
     image: "/images/paket2.jpg",
     gallery: [
-      "/images/zona1-1.jpg",
-      "/images/zona1-2.jpg",
-      "/images/zona1-3.jpg"
+      "/images/paket2.jpg",
+      "/images/paket1.jpg",
+      "/images/paket3.jpg"
     ]
   },
   {
@@ -30,9 +30,9 @@ const packages = [
     features: ["Telaga Dringo", "Kawah Candradimuka", "Sumur Jalatunda", "Telaga Merdada", "D'Qiano Water Park"],
     image: "/images/paket1.jpg",
     gallery: [
-      "/images/zona2-1.jpg",
-      "/images/zona2-2.jpg",
-      "/images/zona2-3.jpg"
+      "/images/paket1.jpg",
+      "/images/paket2.jpg",
+      "/images/paket3.jpg"
     ]
   },
   {
@@ -41,9 +41,9 @@ const packages = [
     features: ["Curug Sikarim", "Telaga Menjer", "Pintu Langit", "Kebun Teh Panama", "Swiss Van Java"],
     image: "/images/paket3.jpg",
     gallery: [
-      "/images/zona3-1.jpg",
-      "/images/zona3-2.jpg",
-      "/images/zona3-3.jpg"
+      "/images/paket3.jpg",
+      "/images/paket1.jpg",
+      "/images/paket2.jpg"
     ]
   },
 ];
@@ -53,7 +53,7 @@ export default function JeepDiengLandingPage() {
   const [form, setForm] = useState({
     nama: "",
     wa: "",
-    paket: "sunrise",
+    paket: "Zona 1",
     catatan: "",
   });
   const [openGalleryIndex, setOpenGalleryIndex] = useState<number | null>(null);
